@@ -1,0 +1,112 @@
+﻿body {
+    background-color: #638889;
+}
+
+.outer-container {
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    /*background-color:#638889;*/
+}
+
+.inner-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    border-radius: 15%;
+    padding: 2em;
+    background-color: #638889;
+    border: 2px solid #EBD9B4;
+    overflow: hidden;
+    color: #EBD9B4;
+}
+
+.lbl_tb {
+    margin: 0.5em;
+}
+
+.tb1{
+    margin-left: 6.1em;
+}
+
+.tb2 {
+    margin-left: 8.1em;
+}
+
+.tb3 {
+    margin-left: 6.5em;
+}
+
+.tb4{
+    margin-left: 2.1em;
+}
+
+
+#title {
+    color:#EBD9B4;
+    font-weight:bold;
+    text-decoration:underline;
+    align-self:center;
+}
+
+#Btn_Register {
+    padding: 0.5em;
+    background-color: #638889;
+    border: 2px solid #EBD9B4;
+    color: #EBD9B4;
+    align-self:center;
+    margin-top:1em;
+}
+
+    #Btn_Register:hover {
+        padding: 0.5em;
+        background-color: #EBD9B4;
+        border: 2px solid #638889;
+        color: #638889;
+    }
+
+#Txt_DD{
+    max-width:25px;
+}
+
+#Txt_MM {
+    max-width: 25px;
+}
+
+#Txt_YY {
+    max-width: 40px;
+}
+
+#Lbl_error{
+    color:red;
+}
+
+.success{
+    color: #b6ff00;
+}
+
+.error{
+    color: red;
+}
+
+@media screen and (max-width: 600px) {
+
+    .navbar-container1 {
+        font-size: 80%;
+    }
+
+    .navbar-container2 {
+        font-size: 100%;
+    }
+
+    .navbar-container3 {
+        font-size: 80%;
+    }
+}
